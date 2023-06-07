@@ -1,4 +1,4 @@
-baseURL = 'https://TrungNgoVan.github.io/nvtrung/'
+baseURL = 'https://TrungNgoVan.github.io/blog/'
 languageCode = 'en-us'
 title = "I'm nvtrung"
 theme = 'PaperMod'
