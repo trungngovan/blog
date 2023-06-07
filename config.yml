@@ -22,4 +22,4 @@ menu:
     - identifier: about
       name: About
       url: /about/
-      weight: 30
+      weight: 29
