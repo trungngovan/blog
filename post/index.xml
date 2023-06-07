@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on I&#39;m nvtrung</title>
+    <link>https://TrungNgoVan.github.io/nvtrung/post/</link>
+    <description>Recent content in Posts on I&#39;m nvtrung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jun 2023 19:07:59 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/nvtrung/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bài viết đầu tiên</title>
+      <link>https://TrungNgoVan.github.io/nvtrung/post/first-post/</link>
+      <pubDate>Wed, 07 Jun 2023 19:07:59 +0700</pubDate>
+      
+      <guid>https://TrungNgoVan.github.io/nvtrung/post/first-post/</guid>
+      <description>Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
+Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
+Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
+    </item>
+    
+  </channel>
+</rss>
