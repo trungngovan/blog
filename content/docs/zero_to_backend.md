@@ -15,3 +15,7 @@ Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầ
 ### Năm đầu đại học
 
 Thời gian này mình tìm hiểu về thuật toán là chủ yếu. Các nền tảng như [LeetCode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/), đặc biết là [Codeforces](https://codeforces.com/). Những nơi này cho mình thấy được thế giới thuật toán nhộn nhịp như thế nào 🌊
+
+...
+
+### Giai đoạn mông lung, sóng gió 🌊
