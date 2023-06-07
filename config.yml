@@ -1,0 +1,28 @@
+baseURL: "https://TrungNgoVan.github.io/blog/"
+languageCode: en-us
+title: I'm nvtrung
+theme: PaperMod
+
+enableEmoji: true
+
+params:
+  author: Ngo Van Trung
+  socialIcons:
+    - name: Github
+      url: "https://github.com/dhij"
+    - name: Youtube
+      url: "https://www.youtube.com/@dhij"
+    - name: Rss
+      url: "index.xml"
+
+  ShowReadingTime: true
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
