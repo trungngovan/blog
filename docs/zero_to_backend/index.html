@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Từ &#34;gà mờ&#34; đến mò mẫm Backend Dev 💻 | I&#39;m nvtrung</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="backend, coding">
 <meta name="description" content="Sự mở đầu 2016-2017 Thật ra mình đã tiếp cận với lập trình từ những năm lớp 7, 8 🐧 Thời con Pascal còn được chuộng trong lập trình thi đấu. Nhưng vì điều kiện cũng như khu vực mình học không quan tâm nhiều đến tin học nên mình không phát triển mạnh về mảng đó (Thật ra là do gà nên không theo được 😃).
 Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầu tìm hiểu 1 cái đúng (theo mình là thế 🐧) về lập trình và con đường tương lai muốn đi.">
 <meta name="author" content="Ngo Van Trung">
@@ -99,7 +99,7 @@ Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầ
   "name": "Từ \u0022gà mờ\u0022 đến mò mẫm Backend Dev 💻",
   "description": "Sự mở đầu 2016-2017 Thật ra mình đã tiếp cận với lập trình từ những năm lớp 7, 8 🐧 Thời con Pascal còn được chuộng trong lập trình thi đấu. Nhưng vì điều kiện cũng như khu vực mình học không quan tâm nhiều đến tin học nên mình không phát triển mạnh về mảng đó (Thật ra là do gà nên không theo được 😃).\nMãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầu tìm hiểu 1 cái đúng (theo mình là thế 🐧) về lập trình và con đường tương lai muốn đi.",
   "keywords": [
-    
+    "backend", "coding"
   ],
   "articleBody": "Sự mở đầu 2016-2017 Thật ra mình đã tiếp cận với lập trình từ những năm lớp 7, 8 🐧 Thời con Pascal còn được chuộng trong lập trình thi đấu. Nhưng vì điều kiện cũng như khu vực mình học không quan tâm nhiều đến tin học nên mình không phát triển mạnh về mảng đó (Thật ra là do gà nên không theo được 😃).\nMãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầu tìm hiểu 1 cái đúng (theo mình là thế 🐧) về lập trình và con đường tương lai muốn đi. Sau đó mình đã vẽ ra con đường đẹp như mơ cho bản thân 👀\nNăm đầu đại học Thời gian này mình tìm hiểu về thuật toán là chủ yếu. Các nền tảng như LeetCode, HackerRank, đặc biết là Codeforces. Những nơi này cho mình thấy được thế giới thuật toán nhộn nhịp như thế nào 🌊\n",
   "wordCount" : "159",
@@ -167,8 +167,13 @@ Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầ
         </div>
         <ul id="menu">
             <li>
-                <a href="https://TrungNgoVan.github.io/blog/about" title="About">
-                    <span>About</span>
+                <a href="https://TrungNgoVan.github.io/blog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://TrungNgoVan.github.io/blog/tags/" title="Tags">
+                    <span>Tags</span>
                 </a>
             </li>
         </ul>
@@ -178,7 +183,7 @@ Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầ
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://TrungNgoVan.github.io/blog/">Home</a>&nbsp;»&nbsp;<a href="https://TrungNgoVan.github.io/blog/docs/">Docs</a></div>
+    
     <h1 class="post-title">
       Từ &#34;gà mờ&#34; đến mò mẫm Backend Dev 💻
     </h1>
@@ -197,6 +202,8 @@ Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầ
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://TrungNgoVan.github.io/blog/tags/backend/">backend</a></li>
+      <li><a href="https://TrungNgoVan.github.io/blog/tags/coding/">coding</a></li>
     </ul>
   </footer>
 </article>
@@ -269,53 +276,6 @@ Mãi đến sau khi hoàn thành khi thi tốt nghiệp, mình mới bắt đầ
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 
