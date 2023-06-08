@@ -2,6 +2,7 @@
 title: "Bài viết đầu tiên"
 date: 2023-06-07T19:07:59+07:00
 author: "Ngo Van Trung"
+categories: ["story"]
 draft: false
 weight: 1
 ---
