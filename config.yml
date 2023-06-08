@@ -7,41 +7,35 @@ params:
   author: Ngo Van Trung
   ShowReadingTime: true
   ShowBreadCrumbs: true
-  # math: true
+  ShowShareButtons: true
+  ShareButtons: ["facebook", "twitter"]
   enableEmoji: true
   enableInlineShortcodes: true
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
-  socialIcons:
-    - name: github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: KoFi
-      url: "https://ko-fi.com/adityatelange"
-    - name: Rss
-      url: "index.xml"
+  showtoc: true
+  ShowBreadCrumbs: true
+  
 menu:
   main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 11
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 12
     - identifier: about
       name: About
       url: /about/
-      weight: 29
+      weight: 13
     - name: Github
       url: https://github.com/TrungNgoVan
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
