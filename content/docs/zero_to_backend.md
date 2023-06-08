@@ -6,6 +6,13 @@ tags: ["roadmap", "coding"]
 categories: ["story"]
 math: true
 draft: true
+cover:
+  image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
+  # can also paste direct link from external site
+  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  alt: "<alt text>"
+  caption: "<text>"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ### Sự mở đầu 2016-2017
@@ -29,3 +36,5 @@ Trong thời điểm kết thúc năm 1, mình đã xém rơi vào trầm cảm 
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$
+
+{{< youtube nl9jesg5fBI >}}
