@@ -12,6 +12,10 @@ params:
   enableEmoji: true
   enableInlineShortcodes: true
   showtoc: true
+  # ShowBreadCrumbs: true
+
+  comments: true
+
 menu:
   main:
     - identifier: search
@@ -36,4 +40,4 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
+    - JSON # is necessary
