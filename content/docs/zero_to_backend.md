@@ -5,7 +5,7 @@ author: "Ngo Van Trung"
 tags: ["roadmap", "coding"]
 categories: ["story"]
 math: true
-draft: false
+draft: true
 ---
 
 ### Sự mở đầu 2016-2017
