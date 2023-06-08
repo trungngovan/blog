@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>coding on 🐳 I&#39;m nvtrung</title>
-    <link>https://TrungNgoVan.github.io/blog/tags/coding/</link>
-    <description>Recent content in coding on 🐳 I&#39;m nvtrung</description>
+    <title>roadmap on 🐳 I&#39;m nvtrung</title>
+    <link>https://TrungNgoVan.github.io/blog/tags/roadmap/</link>
+    <description>Recent content in roadmap on 🐳 I&#39;m nvtrung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jun 2023 22:18:14 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 22:18:14 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/tags/roadmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Từ &#34;gà mờ&#34; đến mò mẫm Backend Dev 💻</title>
       <link>https://TrungNgoVan.github.io/blog/docs/zero_to_backend/</link>
