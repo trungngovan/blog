@@ -5,7 +5,7 @@ author: "Ngo Van Trung"
 tags: ["roadmap", "coding"]
 categories: ["story"]
 math: true
-draft: true
+draft: false
 cover:
   image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
   # can also paste direct link from external site
