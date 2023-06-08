@@ -7,8 +7,6 @@ categories: ["story"]
 draft: false
 ---
 
-![image](../../images/1.jpg)
-
 ### Sự mở đầu 2016-2017
 
 Thật ra mình đã tiếp cận với lập trình từ những năm lớp 7, 8. Thời **_Pascal_** còn được dùng nhiều trong lập trình thi đấu (ở chỗ mình là thế 👀). Nhưng vì điều kiện cũng như khu vực mình học không quan tâm nhiều đến tin học nên mình không phát triển mạnh về mảng đó (Thật ra là do gà nên không theo được 😃).
