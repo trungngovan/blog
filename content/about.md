@@ -5,7 +5,7 @@ author: "Ngo Van Trung"
 draft: false
 ---
 
-![avatar](../../images/logo.jpg)
+![avatar](../images/logo.jpg)
 
 Chào bạn! Mình là Trung 🐳 bạn có thể gọi mình là Henry, một sinh viên Đại học Khoa học Tự nhiên - Đại học Quốc gia TPHCM.
 
