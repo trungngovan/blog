@@ -2,9 +2,10 @@
 title: 'Từ "gà mờ" đến mò mẫm Backend Dev 💻'
 date: 2023-06-07T22:18:14+07:00
 author: "Ngo Van Trung"
-tags: ["backend", "coding"]
+tags: ["roadmap", "coding"]
 categories: ["story"]
-draft: true
+math: true
+draft: false
 ---
 
 ### Sự mở đầu 2016-2017
@@ -24,3 +25,7 @@ Mình học trên trường khá nhàn, thật sự là nhàn. Có lẽ vì mìn
 ### Giai đoạn mông lung, sóng gió 🌊
 
 Trong thời điểm kết thúc năm 1, mình đã xém rơi vào trầm cảm vì các vấn đề xung quanh. Trong đó, Peer pressure - áp lực đồng trang lứa là 1 trong những vấn đề nặng nề nhất.
+
+$$
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$

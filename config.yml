@@ -1,14 +1,34 @@
 baseURL: "https://TrungNgoVan.github.io/blog/"
 languageCode: en-us
-title: I'm nvtrung
+title: 🐳 I'm nvtrung
 theme: PaperMod
-
-enableEmoji: true
 
 params:
   author: Ngo Van Trung
   ShowReadingTime: true
   ShowBreadCrumbs: true
+  # math: true
+  enableEmoji: true
+  enableInlineShortcodes: true
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+  socialIcons:
+    - name: github
+      url: "https://github.com/adityatelange/hugo-PaperMod"
+    - name: KoFi
+      url: "https://ko-fi.com/adityatelange"
+    - name: Rss
+      url: "index.xml"
 menu:
   main:
     - identifier: categories
@@ -23,3 +43,5 @@ menu:
       name: About
       url: /about/
       weight: 29
+    - name: Github
+      url: https://github.com/TrungNgoVan
