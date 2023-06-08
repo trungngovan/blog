@@ -12,8 +12,6 @@ params:
   enableEmoji: true
   enableInlineShortcodes: true
   showtoc: true
-  ShowBreadCrumbs: true
-  
 menu:
   main:
     - identifier: search
