@@ -4,7 +4,7 @@ date: 2023-06-07T22:18:14+07:00
 author: "Ngo Van Trung"
 tags: ["backend", "coding"]
 categories: ["story"]
-draft: false
+draft: true
 ---
 
 ### Sự mở đầu 2016-2017
