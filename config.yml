@@ -13,15 +13,10 @@ params:
   enableInlineShortcodes: true
   Showtoc: true
   assets:
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png"
-
-editPost:
-  URL: "https://github.com/<path_to_repo>/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
+    favicon: "/blog/favicon.ico"
+    favicon16x16: "/blog/favicon-16x16.png"
+    favicon32x32: "/blog/favicon-32x32.png"
+    apple_touch_icon: "/blog/apple-touch-icon.png"
 
 menu:
   main:
