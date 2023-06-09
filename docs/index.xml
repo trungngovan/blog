@@ -6,7 +6,7 @@
     <description>Recent content in Docs on I&#39;m nvtrung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 08:04:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 19:07:59 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bài viết đầu tiên</title>
       <link>https://TrungNgoVan.github.io/blog/docs/first-post/</link>
@@ -16,17 +16,6 @@
       <description>Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
 Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
 Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
-    </item>
-    
-    <item>
-      <title>Manacher&#39;s Algorithm</title>
-      <link>https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/</link>
-      <pubDate>Fri, 09 Jun 2023 08:04:10 +0700</pubDate>
-      
-      <guid>https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/</guid>
-      <description>Oke $$d_{odd}[]$$ bla
-1 2 3 4 5 6 7 8 9 10 11 12 vector&amp;lt;int&amp;gt; manacher_odd(string s) { int n = s.size(); s = &amp;#34;$&amp;#34; + s + &amp;#34;^&amp;#34;; vector&amp;lt;int&amp;gt; p(n + 2); for(int i = 1; i &amp;lt;= n; i++) { while(s[i - p[i]] == s[i + p[i]]) { p[i]++; } } return vector&amp;lt;int&amp;gt;(begin(p) + 1, end(p) - 1); } This is Inline Code
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 &amp;lt;!</description>
     </item>
     
   </channel>
