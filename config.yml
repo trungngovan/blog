@@ -1,6 +1,6 @@
 baseURL: "https://TrungNgoVan.github.io/blog/"
 languageCode: en-us
-title: 🐳 I'm nvtrung
+title: I'm nvtrung
 theme: PaperMod
 
 params:
@@ -17,7 +17,20 @@ params:
     favicon16x16: "/blog/favicon-16x16.png"
     favicon32x32: "/blog/favicon-32x32.png"
     apple_touch_icon: "/blog/apple-touch-icon.png"
+    disableHLJS: true
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
 menu:
   main:
     - identifier: search
