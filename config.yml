@@ -19,7 +19,7 @@ params:
     apple_touch_icon: "/blog/apple-touch-icon.png"
     disableHLJS: true
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/TrungNgoVan/blog/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
