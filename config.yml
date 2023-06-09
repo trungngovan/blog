@@ -1,6 +1,7 @@
 baseURL: "https://TrungNgoVan.github.io/blog/"
 languageCode: en-us
 title: I'm nvtrung
+paginate: 5
 theme: PaperMod
 
 params:
@@ -22,6 +23,30 @@ params:
     URL: "https://github.com/TrungNgoVan/blog/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+  cover:
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  label:
+    text: "🐳 Tập vở của Henry"
+    # icon: ./static/apple-touch-icon.png
+    # iconHeight: 35
+  homeInfoParams:
+    Title: "Hello 👻"
+    Content: Đây là blog của mình 🐳
+
+  socialIcons:
+    - name: facebook
+      url: "https://www.facebook.com/nvtrung2601/"
+    - name: github
+      url: "https://github.com/TrungNgoVan"
 
 markup:
   goldmark:
@@ -51,8 +76,12 @@ menu:
       name: About
       url: /about/
       weight: 4
-    - name: Github
-      url: https://github.com/TrungNgoVan
+    - identifier: CV
+      name: CV
+      url: /cv.pdf
+      weight: 5
+    # - name: Github
+    #   url: https://github.com/TrungNgoVan
 
 outputs:
   home:
