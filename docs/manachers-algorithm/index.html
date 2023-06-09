@@ -5,13 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Bài viết đầu tiên | I&#39;m nvtrung</title>
-<meta name="keywords" content="">
-<meta name="description" content="Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
-Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
-Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊">
+<title>Manacher&#39;s Algorithm | I&#39;m nvtrung</title>
+<meta name="keywords" content="math, algorithm">
+<meta name="description" content="Oke $$d_{odd}[]$$ bla
+1 2 3 4 5 6 7 8 9 10 11 12 vector&lt;int&gt; manacher_odd(string s) { int n = s.size(); s = &#34;$&#34; &#43; s &#43; &#34;^&#34;; vector&lt;int&gt; p(n &#43; 2); for(int i = 1; i &lt;= n; i&#43;&#43;) { while(s[i - p[i]] == s[i &#43; p[i]]) { p[i]&#43;&#43;; } } return vector&lt;int&gt;(begin(p) &#43; 1, end(p) - 1); } ">
 <meta name="author" content="Ngo Van Trung">
-<link rel="canonical" href="https://TrungNgoVan.github.io/blog/docs/first-post/">
+<link rel="canonical" href="https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/">
 <link crossorigin="anonymous" href="/blog/assets/css/stylesheet.2b8f3c39940149ca678168dad708410f521addb426e0670af5a212b4f1c81072.css" integrity="sha256-K488OZQBScpngWja1whBD1Ia3bQm4GcK9aIStPHIEHI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://TrungNgoVan.github.io/blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://TrungNgoVan.github.io/blog/favicon-16x16.png">
@@ -57,22 +56,38 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊">
 
     </style>
 </noscript>
-<meta property="og:title" content="Bài viết đầu tiên" />
-<meta property="og:description" content="Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
-Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
-Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://TrungNgoVan.github.io/blog/docs/first-post/" />
-<meta property="og:image" content="https://i.pinimg.com/736x/42/c4/d6/42c4d6e71dd64bb5d39db5108884e5eb.jpg" /><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2023-06-07T19:07:59+07:00" />
-<meta property="article:modified_time" content="2023-06-07T19:07:59+07:00" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+  integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+  integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+  integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"
+></script>
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://i.pinimg.com/736x/42/c4/d6/42c4d6e71dd64bb5d39db5108884e5eb.jpg" />
-<meta name="twitter:title" content="Bài viết đầu tiên"/>
-<meta name="twitter:description" content="Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
-Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
-Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊"/>
+<meta property="og:title" content="Manacher&#39;s Algorithm" />
+<meta property="og:description" content="Oke $$d_{odd}[]$$ bla
+1 2 3 4 5 6 7 8 9 10 11 12 vector&lt;int&gt; manacher_odd(string s) { int n = s.size(); s = &#34;$&#34; &#43; s &#43; &#34;^&#34;; vector&lt;int&gt; p(n &#43; 2); for(int i = 1; i &lt;= n; i&#43;&#43;) { while(s[i - p[i]] == s[i &#43; p[i]]) { p[i]&#43;&#43;; } } return vector&lt;int&gt;(begin(p) &#43; 1, end(p) - 1); } " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2023-06-09T08:04:10+07:00" />
+<meta property="article:modified_time" content="2023-06-09T08:04:10+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Manacher&#39;s Algorithm"/>
+<meta name="twitter:description" content="Oke $$d_{odd}[]$$ bla
+1 2 3 4 5 6 7 8 9 10 11 12 vector&lt;int&gt; manacher_odd(string s) { int n = s.size(); s = &#34;$&#34; &#43; s &#43; &#34;^&#34;; vector&lt;int&gt; p(n &#43; 2); for(int i = 1; i &lt;= n; i&#43;&#43;) { while(s[i - p[i]] == s[i &#43; p[i]]) { p[i]&#43;&#43;; } } return vector&lt;int&gt;(begin(p) &#43; 1, end(p) - 1); } "/>
 
 
 <script type="application/ld+json">
@@ -89,8 +104,8 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊"/>
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Bài viết đầu tiên",
-      "item": "https://TrungNgoVan.github.io/blog/docs/first-post/"
+      "name": "Manacher's Algorithm",
+      "item": "https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/"
     }
   ]
 }
@@ -99,24 +114,24 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊"/>
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Bài viết đầu tiên",
-  "name": "Bài viết đầu tiên",
-  "description": "Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.\nMình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧\nCảm ơn các bạn đã ghé thăm thế giới của mình 🌊",
+  "headline": "Manacher's Algorithm",
+  "name": "Manacher\u0027s Algorithm",
+  "description": "Oke $$d_{odd}[]$$ bla\n1 2 3 4 5 6 7 8 9 10 11 12 vector\u0026lt;int\u0026gt; manacher_odd(string s) { int n = s.size(); s = \u0026#34;$\u0026#34; + s + \u0026#34;^\u0026#34;; vector\u0026lt;int\u0026gt; p(n + 2); for(int i = 1; i \u0026lt;= n; i++) { while(s[i - p[i]] == s[i + p[i]]) { p[i]++; } } return vector\u0026lt;int\u0026gt;(begin(p) + 1, end(p) - 1); } ",
   "keywords": [
-    
+    "math", "algorithm"
   ],
-  "articleBody": "Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.\nMình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧\nCảm ơn các bạn đã ghé thăm thế giới của mình 🌊\n",
-  "wordCount" : "72",
+  "articleBody": "Oke $$d_{odd}[]$$ bla\n1 2 3 4 5 6 7 8 9 10 11 12 vector\u003cint\u003e manacher_odd(string s) { int n = s.size(); s = \"$\" + s + \"^\"; vector\u003cint\u003e p(n + 2); for(int i = 1; i \u003c= n; i++) { while(s[i - p[i]] == s[i + p[i]]) { p[i]++; } } return vector\u003cint\u003e(begin(p) + 1, end(p) - 1); } ",
+  "wordCount" : "62",
   "inLanguage": "en",
-  "image":"https://i.pinimg.com/736x/42/c4/d6/42c4d6e71dd64bb5d39db5108884e5eb.jpg","datePublished": "2023-06-07T19:07:59+07:00",
-  "dateModified": "2023-06-07T19:07:59+07:00",
+  "datePublished": "2023-06-09T08:04:10+07:00",
+  "dateModified": "2023-06-09T08:04:10+07:00",
   "author":{
     "@type": "Person",
     "name": "Ngo Van Trung"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://TrungNgoVan.github.io/blog/docs/first-post/"
+    "@id": "https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/"
   },
   "publisher": {
     "@type": "Organization",
@@ -210,51 +225,64 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊"/>
   <header class="post-header">
     
     <h1 class="post-title">
-      Bài viết đầu tiên
+      Manacher&#39;s Algorithm
     </h1>
-    <div class="post-meta"><span title='2023-06-07 19:07:59 +0700 +0700'>June 7, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ngo Van Trung&nbsp;|&nbsp;<a href="https://github.com/%3cpath_to_repo%3e/content/docs/First-post.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2023-06-09 08:04:10 +0700 +0700'>June 9, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ngo Van Trung&nbsp;|&nbsp;<a href="https://github.com/%3cpath_to_repo%3e/content/docs/Manachers-Algorithm.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="lazy" src="https://i.pinimg.com/736x/42/c4/d6/42c4d6e71dd64bb5d39db5108884e5eb.jpg" alt="">
-        <p><!-- raw HTML omitted --></p>
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#h%e1%ba%bf-l%c3%b4-" aria-label="Hế lô, 🐳">Hế lô, 🐳</a>
-                </li>
-            </ul>
-        </div>
-    </details>
+  <div class="post-content"><p>Oke $$d_{odd}[]$$ bla</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> manacher_odd(string s) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> s.size();
+</span></span><span style="display:flex;"><span>    s <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;$&#34;</span> <span style="color:#f92672">+</span> s <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;^&#34;</span>;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> p(n <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(s[i <span style="color:#f92672">-</span> p[i]] <span style="color:#f92672">==</span> s[i <span style="color:#f92672">+</span> p[i]]) {
+</span></span><span style="display:flex;"><span>            p[i]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(begin(p) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, end(p) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></td></tr></table>
 </div>
-
-  <div class="post-content"><h2 id="hế-lô-">Hế lô, 🐳<a hidden class="anchor" aria-hidden="true" href="#hế-lô-">#</a></h2>
-<p>Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.</p>
-<p>Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧</p>
-<p>Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</p>
-
+</div>
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://TrungNgoVan.github.io/blog/tags/math/">math</a></li>
+      <li><a href="https://TrungNgoVan.github.io/blog/tags/algorithm/">algorithm</a></li>
     </ul>
 
 <div class="share-buttons">
-    <a target="_blank" rel="noopener noreferrer" aria-label="share Bài viết đầu tiên on twitter"
-        href="https://twitter.com/intent/tweet/?text=B%c3%a0i%20vi%e1%ba%bft%20%c4%91%e1%ba%a7u%20ti%c3%aan&amp;url=https%3a%2f%2fTrungNgoVan.github.io%2fblog%2fdocs%2ffirst-post%2f&amp;hashtags=">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Manacher&#39;s Algorithm on twitter"
+        href="https://twitter.com/intent/tweet/?text=Manacher%27s%20Algorithm&amp;url=https%3a%2f%2fTrungNgoVan.github.io%2fblog%2fdocs%2fmanachers-algorithm%2f&amp;hashtags=math%2calgorithm">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
         </svg>
     </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share Bài viết đầu tiên on facebook"
-        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fTrungNgoVan.github.io%2fblog%2fdocs%2ffirst-post%2f">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Manacher&#39;s Algorithm on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fTrungNgoVan.github.io%2fblog%2fdocs%2fmanachers-algorithm%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />

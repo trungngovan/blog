@@ -6,12 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>🐳 I&#39;m nvtrung</title>
+<title>I&#39;m nvtrung</title>
 
 <meta name="description" content="">
 <meta name="author" content="Ngo Van Trung">
 <link rel="canonical" href="https://TrungNgoVan.github.io/blog/">
-<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.2b8f3c39940149ca678168dad708410f521addb426e0670af5a212b4f1c81072.css" integrity="sha256-K488OZQBScpngWja1whBD1Ia3bQm4GcK9aIStPHIEHI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://TrungNgoVan.github.io/blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://TrungNgoVan.github.io/blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://TrungNgoVan.github.io/blog/favicon-32x32.png">
@@ -58,20 +58,20 @@
 
     </style>
 </noscript>
-<meta property="og:title" content="🐳 I&#39;m nvtrung" />
+<meta property="og:title" content="I&#39;m nvtrung" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://TrungNgoVan.github.io/blog/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="🐳 I&#39;m nvtrung"/>
+<meta name="twitter:title" content="I&#39;m nvtrung"/>
 <meta name="twitter:description" content=""/>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "🐳 I'm nvtrung",
+  "name": "I'm nvtrung",
   "url": "https://TrungNgoVan.github.io/blog/",
   "description": "",
   "thumbnailUrl": "https://TrungNgoVan.github.io/blog/favicon.ico",
@@ -97,7 +97,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://TrungNgoVan.github.io/blog/" accesskey="h" title="🐳 I&#39;m nvtrung (Alt + H)">🐳 I&#39;m nvtrung</a>
+            <a href="https://TrungNgoVan.github.io/blog/" accesskey="h" title="I&#39;m nvtrung (Alt + H)">I&#39;m nvtrung</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -173,10 +173,23 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</p>
   <footer class="entry-footer"><span title='2023-06-07 19:07:59 +0700 +0700'>June 7, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ngo Van Trung</footer>
   <a class="entry-link" aria-label="post link to Bài viết đầu tiên" href="https://TrungNgoVan.github.io/blog/docs/first-post/"></a>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Manacher&#39;s Algorithm
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Oke $$d_{odd}[]$$ bla
+1 2 3 4 5 6 7 8 9 10 11 12 vector&lt;int&gt; manacher_odd(string s) { int n = s.size(); s = &#34;$&#34; &#43; s &#43; &#34;^&#34;; vector&lt;int&gt; p(n &#43; 2); for(int i = 1; i &lt;= n; i&#43;&#43;) { while(s[i - p[i]] == s[i &#43; p[i]]) { p[i]&#43;&#43;; } } return vector&lt;int&gt;(begin(p) &#43; 1, end(p) - 1); } </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-09 08:04:10 +0700 +0700'>June 9, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ngo Van Trung</footer>
+  <a class="entry-link" aria-label="post link to Manacher&#39;s Algorithm" href="https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/"></a>
+</article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://TrungNgoVan.github.io/blog/">🐳 I&#39;m nvtrung</a></span>
+    <span>&copy; 2023 <a href="https://TrungNgoVan.github.io/blog/">I&#39;m nvtrung</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
