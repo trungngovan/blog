@@ -3,16 +3,22 @@ languageCode: en-us
 title: Sổ tay của Henry
 paginate: 5
 theme: PaperMod
-
+minify:
+  disableXML: true
+  minifyOutput: true
 params:
+  env: production
   author: Ngo Van Trung
   ShowReadingTime: true
-  # ShowBreadCrumbs: true
+  # ShowWordCount: true
+  ShowBreadCrumbs: true
   ShowShareButtons: true
   ShareButtons: ["facebook", "twitter"]
   enableEmoji: true
   enableInlineShortcodes: true
   Showtoc: true
+  TocOpen: true
+  # UseHugoToc: true
   assets:
     favicon: "/blog/favicon.ico"
     favicon16x16: "/blog/favicon-16x16.png"
