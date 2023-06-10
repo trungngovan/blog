@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>knowledge on I&#39;m nvtrung</title>
+    <title>knowledge on Sổ tay của Henry</title>
     <link>https://TrungNgoVan.github.io/blog/categories/knowledge/</link>
-    <description>Recent content in knowledge on I&#39;m nvtrung</description>
+    <description>Recent content in knowledge on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Jun 2023 08:04:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Fri, 09 Jun 2023 08:04:10 +0700</pubDate>
       
       <guid>https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/</guid>
-      <description>Oke $$d_{odd}[]$$ bla
+      <description>Oke $$d_{odd}[]$$ bla $d_{odd}[]$
 1 2 3 4 5 6 7 8 9 10 11 12 vector&amp;lt;int&amp;gt; manacher_odd(string s) { int n = s.size(); s = &amp;#34;$&amp;#34; + s + &amp;#34;^&amp;#34;; vector&amp;lt;int&amp;gt; p(n + 2); for(int i = 1; i &amp;lt;= n; i++) { while(s[i - p[i]] == s[i + p[i]]) { p[i]++; } } return vector&amp;lt;int&amp;gt;(begin(p) + 1, end(p) - 1); } This is Inline Code
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 &amp;lt;!</description>
     </item>
