@@ -5,7 +5,7 @@ author: "Ngo Van Trung"
 tags: ["math", "algorithm"]
 categories: ["knowledge"]
 math: true
-draft: false
+draft: true
 cover:
   image: "https://www.interviewhelp.io/blog/images/leetcode-41.png"
   alt: "Cover"
