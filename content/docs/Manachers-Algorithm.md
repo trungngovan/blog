@@ -5,16 +5,23 @@ author: "Ngo Van Trung"
 tags: ["math", "algorithm"]
 categories: ["knowledge"]
 math: true
-draft: true
-# cover:
-#   image: "https://www.interviewhelp.io/blog/images/leetcode-41.png"
-#   alt: "Cover"
-#   caption: "Cover"
-#   relative: false # To use relative path for cover image, used in hugo Page-bundles
-# cover.hidden: true
+draft: false
+cover:
+  image: "https://www.interviewhelp.io/blog/images/leetcode-41.png"
+  alt: "Cover"
+  caption: "Cover"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-Oke $$d_{odd}[]$$ bla
+{{< math.inline >}}
+
+<p>
+Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
+</p>
+{{</ math.inline >}}
+
+<mark>Oke </mark> $$d_{odd}[]$$
+bla $d_{odd}[]$
 
 ```cpp
 vector<int> manacher_odd(string s) {
@@ -49,3 +56,13 @@ vector<int> manacher_odd(string s) {
   </body>
 </html>
 ```
+
+## Other Elements — abbr, sub, sup, kbd, mark
+
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+
+H<sub>2</sub>O
+
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
