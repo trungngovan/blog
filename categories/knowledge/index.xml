@@ -13,7 +13,7 @@
       <pubDate>Mon, 12 Jun 2023 17:27:53 +0700</pubDate>
       
       <guid>https://TrungNgoVan.github.io/blog/docs/manacher-algorithm/</guid>
-      <description>Mình mới gặp và tìm hiểu thuật toán này mới đây thôi 🐳, khi đang làm 1 bài trên leetcode 😃
+      <description>Mình mới gặp và tìm hiểu thuật toán này 🐳, khi đang làm 1 bài trên leetcode 😃
 Thế nào là 1 Palindrome ? Mình hiểu palindrome là 1 chuỗi ký tự đối xứng. Ví dụ:
 Chuỗi &amp;ldquo;cabadabac&amp;rdquo; là 1 palindrome. Vì chuỗi này đối xứng qua ký tự &amp;rsquo;d&amp;rsquo; ở vị trí 4 (tính từ 0, theo cách index trong javascript). Hay chuỗi &amp;ldquo;acbaabca&amp;rdquo; cũng là 1 palindrome, chuỗi này đối xứng qua vị trí giữa 2 ký tự &amp;lsquo;a&amp;rsquo;.</description>
     </item>
