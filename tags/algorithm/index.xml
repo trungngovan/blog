@@ -6,16 +6,16 @@
     <description>Recent content in algorithm on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 08:04:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 17:27:53 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manacher&#39;s Algorithm</title>
-      <link>https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/</link>
-      <pubDate>Fri, 09 Jun 2023 08:04:10 +0700</pubDate>
+      <link>https://TrungNgoVan.github.io/blog/docs/manacher-algorithm/</link>
+      <pubDate>Mon, 12 Jun 2023 17:27:53 +0700</pubDate>
       
-      <guid>https://TrungNgoVan.github.io/blog/docs/manachers-algorithm/</guid>
-      <description>Oke $$d_{odd}[]$$ bla $d_{odd}[]$
-1 2 3 4 5 6 7 8 9 10 11 12 vector&amp;lt;int&amp;gt; manacher_odd(string s) { int n = s.size(); s = &amp;#34;$&amp;#34; + s + &amp;#34;^&amp;#34;; vector&amp;lt;int&amp;gt; p(n + 2); for(int i = 1; i &amp;lt;= n; i++) { while(s[i - p[i]] == s[i + p[i]]) { p[i]++; } } return vector&amp;lt;int&amp;gt;(begin(p) + 1, end(p) - 1); } This is Inline Code
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 &amp;lt;!</description>
+      <guid>https://TrungNgoVan.github.io/blog/docs/manacher-algorithm/</guid>
+      <description>Mình mới gặp và tìm hiểu thuật toán này mới đây thôi 🐳, khi đang làm 1 bài trên leetcode 😃
+Thế nào là 1 Palindrome ? Mình hiểu palindrome là 1 chuỗi ký tự đối xứng. Ví dụ:
+Chuỗi &amp;ldquo;cabadabac&amp;rdquo; là 1 palindrome. Vì chuỗi này đối xứng qua ký tự &amp;rsquo;d&amp;rsquo; ở vị trí 4 (tính từ 0, theo cách index trong javascript). Hay chuỗi &amp;ldquo;acbaabca&amp;rdquo; cũng là 1 palindrome, chuỗi này đối xứng qua vị trí giữa 2 ký tự &amp;lsquo;a&amp;rsquo;.</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@
     <description>Recent content on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jun 2023 19:07:59 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 17:27:53 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bài viết đầu tiên</title>
       <link>https://TrungNgoVan.github.io/blog/docs/first-post/</link>
@@ -16,6 +16,17 @@
       <description>Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
 Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
 Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
+    </item>
+    
+    <item>
+      <title>Manacher&#39;s Algorithm</title>
+      <link>https://TrungNgoVan.github.io/blog/docs/manacher-algorithm/</link>
+      <pubDate>Mon, 12 Jun 2023 17:27:53 +0700</pubDate>
+      
+      <guid>https://TrungNgoVan.github.io/blog/docs/manacher-algorithm/</guid>
+      <description>Mình mới gặp và tìm hiểu thuật toán này mới đây thôi 🐳, khi đang làm 1 bài trên leetcode 😃
+Thế nào là 1 Palindrome ? Mình hiểu palindrome là 1 chuỗi ký tự đối xứng. Ví dụ:
+Chuỗi &amp;ldquo;cabadabac&amp;rdquo; là 1 palindrome. Vì chuỗi này đối xứng qua ký tự &amp;rsquo;d&amp;rsquo; ở vị trí 4 (tính từ 0, theo cách index trong javascript). Hay chuỗi &amp;ldquo;acbaabca&amp;rdquo; cũng là 1 palindrome, chuỗi này đối xứng qua vị trí giữa 2 ký tự &amp;lsquo;a&amp;rsquo;.</description>
     </item>
     
     <item>
