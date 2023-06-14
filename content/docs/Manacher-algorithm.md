@@ -215,7 +215,7 @@ var SubPalindromes = function (s) {
 };
 ```
 
-### Độ phức tạp:
+### Độ phức tạp
 
 - **Thời gian**: $O(n^2)$, trong đó n là độ dài của chuỗi đầu vào s. Thuật toán lặp qua từng ký tự của chuỗi đã sửa đổi được xử lý và đối với mỗi ký tự, nó mở rộng bảng màu ở cả hai bên. Trong trường hợp xấu nhất, mỗi ký tự của `newS` có thể là trung tâm của một palindrome, dẫn đến các lần lặp O(n^2).
 - **Không gian**: $O(n)$, trong đó n là độ dài của chuỗi đầu vào s. Chuỗi đã sửa đổi processS yêu cầu thêm dung lượng O(n) để lưu trữ phiên bản đã sửa đổi.
@@ -396,6 +396,7 @@ Bây giờ, chúng ta cần tính toán $d_{odd}[i]$, trong đó tất cả các
     <mtext>&#xA0;</mtext>
     <mo>&#x2026;</mo>
   </math>
+
   Cách này đã giảm đi khá nhiều độ phức tạp, thay vì mình phải tính $d_{odd}[i]$, mình sẽ dùng lại $d_{odd}[j]$ đã tính trước đó thông qua tính chất đối xứng, đơn giản ha 🐧
 
   Nhưng có một trường hợp đặc biệt: khi palindrome đang xét thuộc maxPalindrome nhưng vượt quá biên của nó, tức là $j - d_{odd}[j] \le l$  (hoặc  $i + d_{odd}[j] \ge r$ ). Mình sẽ không chắc chắn được lúc này $d_{odd}[i]$ có bằng $d_{odd}[j]$ hay không ? Vì đã vượt ra ngoài maxPalindrome, mà chúng ta chỉ kiếm soát được sự đối xứng bên trong maxPalindrome thôi 🐧.
@@ -406,7 +407,7 @@ Bây giờ, chúng ta cần tính toán $d_{odd}[i]$, trong đó tất cả các
 
 Sau khi kết thúc quá trình tính toán, việc còn lại đơn giản là trả về tổng của  $d_{odd}[]$ để có được tổng sub-palindromes.
 
-Mình code bài này bằng **Javascript**, vì trong bài này, vai trò của $l$ và $r$ giống nhau và mình không dùng tới $l$ nên không đưa vào code cho đơn giản 🐳
+Mình code bằng **Javascript**, vì trong bài này, vai trò của $l$ và $r$ giống nhau (vì tính đối xứng) và mình không dùng tới $l$ nên không đưa vào cho đơn giản 🐳
 
 ```javascript
 let SubPalindromes = function (s) {
