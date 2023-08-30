@@ -5,11 +5,11 @@ author: "Ngo Van Trung"
 categories: ["story"]
 draft: false
 weight: 1
-cover:
-  image: "https://i.pinimg.com/736x/42/c4/d6/42c4d6e71dd64bb5d39db5108884e5eb.jpg"
-  alt: "<alt text>"
-  caption: "<text>"
-  relative: false # To use relative path for cover image, used in hugo Page-bundles
+# cover:
+#   image: "https://i.pinimg.com/736x/42/c4/d6/42c4d6e71dd64bb5d39db5108884e5eb.jpg"
+#   alt: "<alt text>"
+#   caption: "<text>"
+#   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ## Hế lô, 🐳
