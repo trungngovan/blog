@@ -14,7 +14,7 @@ Lâu lắm rồi mình mới quay lại viết blog 🐳 Dạo gần đây mình
 
 ### Thời tới 😈
 
-Mới đây mình sau khi chạy deadline xong, khá rảnh nên lọ mọ đi kiếm chỗ apply intern. Lần này mình lên [Vietnamework](https://www.vietnamworks.com) để tìm việc. Đây cũng là lần đầu mình dùng nền tảng này, lên cũng làm hồ sơ qua qua rồi đọc xem có uy tin không. Xem xét 1 lúc thì mình search ra 3 offer cho vị trí `Backend Intern` mà mình đang tìm kiếm. 
+Mới đây mình sau khi chạy deadline xong, khá rảnh nên lọ mọ đi kiếm chỗ apply intern. Lần này mình lên [Vietnamework](https://www.vietnamworks.com) để tìm việc. Đây cũng là lần đầu mình dùng nền tảng này, lên cũng làm hồ sơ qua qua rồi đọc xem có uy tín không. Xem xét 1 lúc thì mình search ra 3 offer cho vị trí `Backend Intern` mà mình đang tìm kiếm. 
 
 Vì tay nhanh hơn não 😀 Nên mình làm hồ sơ, sửa CV và apply luôn không nghĩ nhiều. Một phần vì hiện tại và tương lai gần mình khá là rảnh nên muốn tìm việc làm. Bất ngờ là ngay ngày mình biết đến [Vietnamework](https://www.vietnamworks.com), cũng là ngày mà công ty mình apply đăng bài tuyển. Người ta nói mà, "hay không bằng hên".
 
