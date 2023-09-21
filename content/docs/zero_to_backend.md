@@ -6,13 +6,6 @@ tags: ["roadmap", "coding"]
 categories: ["story"]
 math: true
 draft: true
-cover:
-  image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  alt: "<alt text>"
-  caption: "<text>"
-  relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ### Sự mở đầu 2016-2017
@@ -32,9 +25,3 @@ Mình học trên trường khá nhàn, thật sự là nhàn. Có lẽ vì mìn
 ### Giai đoạn mông lung, sóng gió 🌊
 
 Trong thời điểm kết thúc năm 1, mình đã xém rơi vào trầm cảm vì các vấn đề xung quanh. Trong đó, Peer pressure - áp lực đồng trang lứa là 1 trong những vấn đề nặng nề nhất.
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-{{< youtube nl9jesg5fBI >}}
