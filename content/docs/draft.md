@@ -38,8 +38,6 @@ vector<int> manacher_odd(string s) {
 }
 ```
 
-`This is Inline Code`
-
 ```html {linenos=true}
 <!DOCTYPE html>
 <html lang="en">
