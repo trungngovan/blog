@@ -24,7 +24,8 @@ zsh --version
 ### Install plugins
 #### Ohmyzsh & powerlever10k
 https://www.youtube.com/watch?v=-s3Yjzu4P4o
-Script
+
+
 ```shell
 sh-c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
