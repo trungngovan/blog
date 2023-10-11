@@ -24,8 +24,7 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
       <pubDate>Wed, 11 Oct 2023 15:51:22 +0700</pubDate>
       
       <guid>https://TrungNgoVan.github.io/blog/docs/zsh/</guid>
-      <description>Install zsh in ubuntu Update the system repository 1 sudo apt update Install Zsh 1 sudo apt install zsh -y Check installation 1 zsh --version Install plugins Ohmyzsh &amp;amp; powerlever10k https://www.youtube.com/watch?v=-s3Yjzu4P4o
-1 2 3 4 5 sh-c &amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; git clone --depth=1 https://github.com/romkatv/powerlevell0k.git ~/powerlevel10k echo &amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39; &amp;gt;&amp;gt;~/zshrc fzf (fuzzy finder) https://github.com/junegunn/fzf
+      <description>Install zsh in ubuntu Update the system repository 1 sudo apt update Install Zsh 1 sudo apt install zsh -y Check installation 1 zsh --version Install plugins Ohmyzsh &amp;amp; powerlever10k 1 2 3 4 5 sh-c &amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; git clone --depth=1 https://github.com/romkatv/powerlevell0k.git ~/powerlevel10k echo &amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39; &amp;gt;&amp;gt;~/zshrc fzf (fuzzy finder) https://github.com/junegunn/fzf
 zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions</description>
     </item>
     
