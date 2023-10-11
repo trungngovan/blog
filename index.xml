@@ -6,7 +6,7 @@
     <description>Recent content on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Sep 2023 15:42:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Oct 2023 15:51:22 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bài viết đầu tiên</title>
       <link>https://TrungNgoVan.github.io/blog/docs/first-post/</link>
@@ -16,6 +16,15 @@
       <description>Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
 Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
 Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
+    </item>
+    
+    <item>
+      <title>Install zsh &amp; plugins</title>
+      <link>https://TrungNgoVan.github.io/blog/docs/zsh/</link>
+      <pubDate>Wed, 11 Oct 2023 15:51:22 +0700</pubDate>
+      
+      <guid>https://TrungNgoVan.github.io/blog/docs/zsh/</guid>
+      <description>Install zsh in ubuntu Update the system repository 1 sudo apt update Install Zsh 1 sudo apt install zsh -y Check installation 1 zsh --version Install plugins Ohmyzsh fzf (fuzzy finder) https://www.linode.com/docs/guides/how-to-use-fzf/</description>
     </item>
     
     <item>
