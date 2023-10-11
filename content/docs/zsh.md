@@ -23,7 +23,7 @@ zsh --version
 
 ### Install plugins
 #### Ohmyzsh & powerlever10k
-https://www.youtube.com/watch?v=-s3Yjzu4P4o
+{{< youtube -s3Yjzu4P4o >}}
 
 
 ```shell
