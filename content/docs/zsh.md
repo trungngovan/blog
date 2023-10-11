@@ -22,8 +22,17 @@ zsh --version
 ```
 
 ### Install plugins
-#### Ohmyzsh
-{{< youtube -s3Yjzu4P4o >}}
+#### Ohmyzsh & powerlever10k
+https://www.youtube.com/watch?v=-s3Yjzu4P4o
+Script
+```shell
+sh-c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+git clone --depth=1 https://github.com/romkatv/powerlevell0k.git ~/powerlevel10k
+
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/zshrc
+```
+
 
 #### fzf (fuzzy finder)
 https://www.linode.com/docs/guides/how-to-use-fzf/
