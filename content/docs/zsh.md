@@ -35,4 +35,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/zshrc
 
 
 #### fzf (fuzzy finder)
-https://www.linode.com/docs/guides/how-to-use-fzf/
+https://github.com/junegunn/fzf
+
+#### zsh-autosuggestions
+https://github.com/zsh-users/zsh-autosuggestions
