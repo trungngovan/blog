@@ -72,3 +72,9 @@ $$
 {{< youtube nl9jesg5fBI >}}
 
 ❯ hugo new docs/first-interview-backend-intern.md
+
+## Git submodule update
+``` shell
+git submodule init
+git submodule update
+```

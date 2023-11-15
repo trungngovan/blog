@@ -1,7 +1,7 @@
 ---
 title: "Google Python Role"
 date: 2023-09-11T15:42:10+07:00
-draft: false
+draft: true
 author: "Ngo Van Trung"
 categories: ["knowledge"]
 tags: ["python"]

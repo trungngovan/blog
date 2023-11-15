@@ -3,7 +3,7 @@ title: "Install zsh & plugins"
 date: 2023-10-11T15:51:22+07:00
 author: "Ngo Van Trung"
 categories: ["tools", "coding"]
-draft: false
+draft: true
 ---
 ### Install zsh in ubuntu
 1. Update the system repository
