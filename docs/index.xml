@@ -6,7 +6,7 @@
     <description>Recent content in Docs on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Oct 2023 15:51:22 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 19:43:17 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bài viết đầu tiên</title>
       <link>https://TrungNgoVan.github.io/blog/docs/first-post/</link>
@@ -16,28 +16,6 @@
       <description>Hế lô, 🐳 Mình là Trung, hiện tại mình đang theo học cử nhân ngành Toán - Tin học, tại HCMUS.
 Mình lập ra blog này để chia sẻ về những kiến thức, hiểu biết cũng như trải nghiệm của mình trong công việc và trong cuộc sống. Thú thật mình không giỏi viết, nhưng mong là nó ổn 🐧
 Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
-    </item>
-    
-    <item>
-      <title>Install zsh &amp; plugins</title>
-      <link>https://TrungNgoVan.github.io/blog/docs/zsh/</link>
-      <pubDate>Wed, 11 Oct 2023 15:51:22 +0700</pubDate>
-      
-      <guid>https://TrungNgoVan.github.io/blog/docs/zsh/</guid>
-      <description>Install zsh in ubuntu Update the system repository 1 sudo apt update Install Zsh 1 sudo apt install zsh -y Check installation 1 zsh --version Install plugins Ohmyzsh &amp;amp; powerlever10k 1 2 3 4 5 sh-c &amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; git clone --depth=1 https://github.com/romkatv/powerlevell0k.git ~/powerlevel10k echo &amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39; &amp;gt;&amp;gt;~/zshrc fzf (fuzzy finder) https://github.com/junegunn/fzf
-zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions</description>
-    </item>
-    
-    <item>
-      <title>Google Python Role</title>
-      <link>https://TrungNgoVan.github.io/blog/docs/google_python_role/</link>
-      <pubDate>Mon, 11 Sep 2023 15:42:10 +0700</pubDate>
-      
-      <guid>https://TrungNgoVan.github.io/blog/docs/google_python_role/</guid>
-      <description>Google Python Style Guide (truncated version) 1 Python Language Rules 2.2 Imports Use import statements for packages and modules only, not for individual classes or functions.
-2.2.1 Definition Reusability mechanism for sharing code from one module to another.
-2.2.2 Pros The namespace management convention is simple. The source of each identifier is indicated in a consistent way; x.Obj says that object Obj is defined in module x.
-2.2.3 Cons Module names can still collide.</description>
     </item>
     
     <item>

@@ -6,19 +6,7 @@
     <description>Recent content in knowledge on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Sep 2023 15:42:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Google Python Role</title>
-      <link>https://TrungNgoVan.github.io/blog/docs/google_python_role/</link>
-      <pubDate>Mon, 11 Sep 2023 15:42:10 +0700</pubDate>
-      
-      <guid>https://TrungNgoVan.github.io/blog/docs/google_python_role/</guid>
-      <description>Google Python Style Guide (truncated version) 1 Python Language Rules 2.2 Imports Use import statements for packages and modules only, not for individual classes or functions.
-2.2.1 Definition Reusability mechanism for sharing code from one module to another.
-2.2.2 Pros The namespace management convention is simple. The source of each identifier is indicated in a consistent way; x.Obj says that object Obj is defined in module x.
-2.2.3 Cons Module names can still collide.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 12 Jun 2023 17:27:53 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manacher&#39;s Algorithm</title>
       <link>https://TrungNgoVan.github.io/blog/docs/manacher-algorithm/</link>
