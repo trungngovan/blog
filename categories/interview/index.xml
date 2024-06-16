@@ -6,7 +6,18 @@
     <description>Recent content in interview on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Aug 2023 19:43:17 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 12:12:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview Preparation for Python Developer Intern</title>
+      <link>https://TrungNgoVan.github.io/blog/docs/preparation_for_python_developer_intern/</link>
+      <pubDate>Sun, 16 Jun 2024 12:12:10 +0700</pubDate>
+      
+      <guid>https://TrungNgoVan.github.io/blog/docs/preparation_for_python_developer_intern/</guid>
+      <description>Interview Preparation for Python Developer Intern Operating System (OS) Question 1 Q: Bạn có thể giải thích sự khác nhau giữa process và thread không?
+A:
+Process: Một tiến trình (process) là một chương trình đang chạy. Mỗi tiến trình có không gian địa chỉ riêng, bộ nhớ riêng và tài nguyên riêng. Tiến trình là đơn vị phân bổ tài nguyên của hệ điều hành. Thread: Một luồng (thread) là một đơn vị thực thi nhỏ hơn tiến trình.</description>
+    </item>
+    
     <item>
       <title>Lần đầu phỏng vấn vị trí Backend Intern</title>
       <link>https://TrungNgoVan.github.io/blog/docs/first-interview-backend-intern/</link>

@@ -6,7 +6,7 @@
     <description>Recent content on Sổ tay của Henry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Oct 2023 15:51:22 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 12:12:10 +0700</lastBuildDate><atom:link href="https://TrungNgoVan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bài viết đầu tiên</title>
       <link>https://TrungNgoVan.github.io/blog/docs/first-post/</link>
@@ -19,13 +19,14 @@ Cảm ơn các bạn đã ghé thăm thế giới của mình 🌊</description>
     </item>
     
     <item>
-      <title>Install zsh &amp; plugins</title>
-      <link>https://TrungNgoVan.github.io/blog/docs/zsh/</link>
-      <pubDate>Wed, 11 Oct 2023 15:51:22 +0700</pubDate>
+      <title>Interview Preparation for Python Developer Intern</title>
+      <link>https://TrungNgoVan.github.io/blog/docs/preparation_for_python_developer_intern/</link>
+      <pubDate>Sun, 16 Jun 2024 12:12:10 +0700</pubDate>
       
-      <guid>https://TrungNgoVan.github.io/blog/docs/zsh/</guid>
-      <description>Install zsh in ubuntu Update the system repository 1 sudo apt update Install Zsh 1 sudo apt install zsh -y Check installation 1 zsh --version Install plugins Ohmyzsh &amp;amp; powerlever10k 1 2 3 4 5 sh-c &amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; git clone --depth=1 https://github.com/romkatv/powerlevell0k.git ~/powerlevel10k echo &amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39; &amp;gt;&amp;gt;~/zshrc fzf (fuzzy finder) https://github.com/junegunn/fzf
-zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions</description>
+      <guid>https://TrungNgoVan.github.io/blog/docs/preparation_for_python_developer_intern/</guid>
+      <description>Interview Preparation for Python Developer Intern Operating System (OS) Question 1 Q: Bạn có thể giải thích sự khác nhau giữa process và thread không?
+A:
+Process: Một tiến trình (process) là một chương trình đang chạy. Mỗi tiến trình có không gian địa chỉ riêng, bộ nhớ riêng và tài nguyên riêng. Tiến trình là đơn vị phân bổ tài nguyên của hệ điều hành. Thread: Một luồng (thread) là một đơn vị thực thi nhỏ hơn tiến trình.</description>
     </item>
     
     <item>
